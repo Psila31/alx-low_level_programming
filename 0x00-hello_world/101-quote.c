@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- *  main - a program that prints a line to the standard error 
+ * main - Entry point 
  *
- *  Return 1 (Success)
+ * Return: 1
  */
 int main(void)
 {
