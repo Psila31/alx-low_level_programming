@@ -1,15 +1,15 @@
 #include "main.h"
 /**
- * print_alphabet_x10 -  Prints the alphabet 10 times in lowercase
+ * print_alphabet_x10 - entry point
  *
- * return: 0
+ * Return: 0
  */
 void print_alphabet_x10(void)
 {
+	int k = 0;
 	int i;
-	int k;
-	
-	for (k = 0; k < 10; k++)
+
+	while (k < 10)
 	{
 		for (i = 97; i <= 122; i++)
 		{
